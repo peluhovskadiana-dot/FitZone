@@ -53,3 +53,15 @@ color: #FFFFFF;
 .about5{
     display: flex;
 }
+.about2{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        img{
+            margin: 0 auto;
+            display: block;
+        }
+        div{
+            width: 33%;
+        }
+    }
