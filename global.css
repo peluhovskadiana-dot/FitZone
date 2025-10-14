@@ -6,11 +6,6 @@ body {
   font-family: "Irish Grover", sans-serif;
 }
 
-header,
-footer {
-  background-color: blueviolet;
-}
-
 a {
   text-decoration: none;
   color: white;
@@ -51,4 +46,19 @@ main {
   max-width: 1200px;
   margin: 0 auto;
   padding: 16px;
+}
+
+footer {
+  background: #1a1a1a;
+  padding: 40px 16px;
+  color: white;
+  text-align: center;
+
+  .icons {
+    margin-bottom: 16px;
+    img {
+      width: 40px;
+      margin: 0 12px;
+    }
+  }
 }
