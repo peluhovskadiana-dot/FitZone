@@ -15,9 +15,10 @@ h1 {
 
 .about1 {
   display: flex;
+  align-items: stretch;
+  gap: 20px;
   p {
     width: 50%;
-
     font-family: "Irish Grover";
     font-style: normal;
     font-weight: 400;
@@ -49,9 +50,11 @@ p {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
+  gap: 20px;
   img {
     margin: 0 auto;
     display: block;
+    max-width: 100%;
   }
   div {
     width: 33%;

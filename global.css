@@ -1,38 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Irish+Grover&family=Itim&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 body {
-    background-color: brown;
-    margin: 0;
-    font-family: sans-serif;
+  background-color: brown;
+  margin: 0;
+  font-family: "Irish Grover", sans-serif;
 }
 
-header, footer{
-    background-color: blueviolet;
+header,
+footer {
+  background-color: blueviolet;
 }
 
-a{
-    text-decoration: none;
-    color: white;
+a {
+  text-decoration: none;
+  color: white;
 }
 
-.pluses{
-    display: flex;
-    justify-content: space-between;
-    gap: 16px;
+header {
+  padding: 8px 16px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #5a030c;
+  h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
 
-    .article{
-        display: flex;
-        gap: 24px;
-    }
-    .number{
+    color: #000000;
+  }
 
-    font-weight: 700;
+  nav a {
+    margin-left: 20px;
+    font-style: normal;
+    font-weight: 400;
     font-size: 40px;
     line-height: 48px;
+    /* identical to box height */
 
-    color: #FFFFFF;
-        padding: 38px 16px;
-        border-right: 1px solid #FFFFFF;
+    color: #f5f5f5;
+  }
 
-    }
+  .icons a {
+    margin-left: 12px;
+  }
+}
 
-    .text
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px;
 }
