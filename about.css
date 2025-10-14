@@ -1,3 +1,51 @@
 .about{
-    background-color: blue;
+    background-color: rgb(255, 0, 0);
+}
+
+h1{
+
+font-family: 'Inria Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 77px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+}
+
+.about1{
+    display: flex;
+    p{
+        width: 50%;
+    
+font-family: 'Irish Grover';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+
+color: #D8CECE;
+
+    background: url(about4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+
+}
+
+p{
+
+
+font-family: 'Irish Grover';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+color: #FFFFFF;
+
+
 }
