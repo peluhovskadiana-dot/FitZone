@@ -1,26 +1,25 @@
-.main{
-    background-color: rgb(69, 10, 10);
+.main {
+  background-color: rgb(69, 10, 10);
 }
-h2{
-     /* our simulators */
+h2 {
+  /* our simulators */
 
-text-align: center;
-font-family: 'Italiana';
-font-style: normal;
-font-weight: 400;
-font-size: 128px;
-line-height: 151px;
+  text-align: center;
+  font-family: "Italiana";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 128px;
+  line-height: 151px;
 
-background: linear-gradient(90deg, #F5F5F5 0%, #E8213F 71.64%);
--webkit-background-clip: text;
-
+  background: linear-gradient(90deg, #f5f5f5 0%, #e8213f 71.64%);
+  -webkit-background-clip: text;
 }
-img{
-margin:0 auto;
+img {
+  margin: 0 auto;
 }
-.one{
-    width: 100%;
+.one {
+  width: 100%;
 }
-.img{
-    width: 33%;
+.img {
+  width: 33%;
 }

@@ -1,67 +1,59 @@
-.about{
-    background-color: rgb(69, 10, 10);
+.about {
+  background-color: rgb(69, 10, 10);
 }
 
-h1{
+h1 {
+  font-family: "Inria Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 77px;
+  /* identical to box height */
 
-font-family: 'Inria Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 64px;
-line-height: 77px;
-/* identical to box height */
-
-color: #FFFFFF;
-
-
+  color: #ffffff;
 }
 
-.about1{
-    display: flex;
-    p{
-        width: 50%;
-    
-font-family: 'Irish Grover';
-font-style: normal;
-font-weight: 400;
-font-size: 48px;
-line-height: 58px;
+.about1 {
+  display: flex;
+  p {
+    width: 50%;
 
-color: #D8CECE;
+    font-family: "Irish Grover";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+
+    color: #d8cece;
 
     background: url(about4.png);
     background-size: cover;
     background-repeat: no-repeat;
-    }
-
+  }
 }
 
-p{
+p {
+  font-family: "Irish Grover";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
 
-
-font-family: 'Irish Grover';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 29px;
-
-color: #FFFFFF;
-
-
+  color: #ffffff;
 }
 
-.about5{
-    display: flex;
+.about5 {
+  display: flex;
 }
-.about2{
-        display: flex;
-        justify-content: space-between;
-        margin-top: 20px;
-        img{
-            margin: 0 auto;
-            display: block;
-        }
-        div{
-            width: 33%;
-        }
-    }
+.about2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  img {
+    margin: 0 auto;
+    display: block;
+  }
+  div {
+    width: 33%;
+  }
+}
