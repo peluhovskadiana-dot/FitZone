@@ -1,5 +1,5 @@
 .about{
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(69, 10, 10);
 }
 
 h1{
@@ -48,4 +48,8 @@ line-height: 29px;
 color: #FFFFFF;
 
 
+}
+
+.about5{
+    display: flex;
 }
