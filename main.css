@@ -15,3 +15,12 @@ background: linear-gradient(90deg, #F5F5F5 0%, #E8213F 71.64%);
 -webkit-background-clip: text;
 
 }
+img{
+margin:0 auto;
+}
+.one{
+    width: 100%;
+}
+.img{
+    width: 33%;
+}
