@@ -23,11 +23,10 @@ img {
 .img {
   width: 33%;
 }
-.image11.png{
-position: absolute;
-width: 629px;
-height: 629px;
+.image11.png {
+  position: absolute;
+  width: 629px;
+  height: 629px;
 
-background: url(image.png);
-
+  background: url(img/image.png);
 }
