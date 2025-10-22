@@ -23,3 +23,11 @@ img {
 .img {
   width: 33%;
 }
+.image11.png{
+position: absolute;
+width: 629px;
+height: 629px;
+
+background: url(image.png);
+
+}
