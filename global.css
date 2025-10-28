@@ -17,7 +17,7 @@ header {
   justify-content: space-around;
   align-items: center;
   background-color: #5a030c;
-  h1 {
+  .logo {
     font-style: normal;
     font-weight: 400;
     font-size: 64px;
