@@ -7,17 +7,9 @@ seeMyCoachButton.addEventListener("click", () => {
     .find((row) => row.startsWith("selected_trainer="))
     ?.split("=")[1];
 
-  switch (selectedTrainer) {
-    case "fitness":
-      location = "coach/about1.html";
-      break;
-    case "crossfit":
-      location = "coach/about2.html";
-      break;
-    case "nutrition":
-      location = "coach/about3.html";
-      break;
-  }
+  // змінювати location відповідно до вибраного тренера SelectedTrainer
+  // якщо selectedTrainer дорівнює "trainer1", location = "coach/trainer1.html"
+  // можна використати if-else або switch
 
   window.location.href = location;
 });
