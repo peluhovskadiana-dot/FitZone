@@ -9,9 +9,9 @@
   </head>
   <body class="about">
     <header>
-      <h1>FitZone</h1>
+      <a class="logo" href="index.html">FitZone</a>
       <nav>
-        <a href="index.html">Home</a>
+        <a href="home.html">Home</a>
         <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
         <a href="blog.html">Blog</a>
@@ -36,26 +36,37 @@
           and we are here to support you every step of the way.
         </p>
       </section>
+
+      <section id="coaches" class="filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="fitness">Fitness Coach</button>
+        <button class="filter-btn" data-filter="crossfit">CrossFit Trainer</button>
+        <button class="filter-btn" data-filter="nutrition">Nutrition & Lifestyle Coach</button>
+      </section>
       <section class="about2">
-        <div>
+        <div class="card" data-speciality="fitness">
           <img src="img/about1.png" />
           <p>
             1. Oleksandr — Fitness Coach Specialist in strength and functional training. Focused on
             helping clients build power and confidence safely.
           </p>
+          <button class="select-btn">Choose trainer</button>
         </div>
-        <div>
+        <div class="card" data-speciality="crossfit">
           <img src="img/about2.png" />
           <p>
             2. Dmytro — CrossFit Trainer Energetic and motivating coach who turns every workout into
             a challenge and a win.
           </p>
+          <button class="select-btn">Choose trainer</button>
         </div>
-        <div>
+        <div class="card" data-speciality="nutrition">
           <img src="img/about3.png" />
           <p>
-            3. Andrii — Nutrition & Lifestyle Coach Designs personalized nutrition and training plans to achieve long-term, sustainable results.
+            3. Andrii — Nutrition & Lifestyle Coach Designs personalized nutrition and training
+            plans to achieve long-term, sustainable results.
           </p>
+          <button class="select-btn">Choose trainer</button>
         </div>
       </section>
       <section></section>
@@ -87,6 +98,7 @@
       </div>
       <p>&copy; All rights reserved</p>
     </footer>
+    <script src="about.js" defer></script>
     <script src="script.js" defer></script>
   </body>
 </html>
