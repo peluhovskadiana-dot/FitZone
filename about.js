@@ -23,7 +23,7 @@ filter_buttons.forEach((button) => {
 select_trainer_buttons.forEach((button) => {
   button.addEventListener("click", () => {
     // записати тип тренера в cookie "selected_trainer"
-
+document.cookie = "selected_trainer=" + button.parentElement.dataset.speciality + ";";
     alert("Trainer selected!\n You can find him at the Home page.");
   });
 });
