@@ -60,3 +60,11 @@ p {
     width: 33%;
   }
 }
+.filter-btn{
+  background-color: #000000;
+  border: none;
+  border-radius: ;
+  font-family: "Inria Serif";
+  color: white;
+
+}
