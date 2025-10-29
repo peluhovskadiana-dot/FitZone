@@ -63,8 +63,13 @@ p {
 .filter-btn{
   background-color: #000000;
   border: none;
-  border-radius: ;
+  border-radius: 16;
   font-family: "Inria Serif";
   color: white;
-
+  text-align: center;
+  padding: 16px ;
+  justify-content: center;
+}
+.filters{
+  text-align: center;
 }
