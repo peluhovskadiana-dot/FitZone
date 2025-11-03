@@ -10,7 +10,6 @@ a {
   text-decoration: none;
   color: white;
 }
-
 header {
   padding: 8px 16px;
   display: flex;
@@ -20,7 +19,7 @@ header {
   .logo {
     font-style: normal;
     font-weight: 400;
-    font-size: 64px;
+    font-size: 5vw;
     line-height: 77px;
 
     color: #000000;
@@ -30,7 +29,7 @@ header {
     margin-left: 20px;
     font-style: normal;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 3vw;
     line-height: 48px;
     /* identical to box height */
 
@@ -40,12 +39,17 @@ header {
   .icons a {
     margin-left: 12px;
   }
+
+  .icons a img {
+    border-radius: 50%;
+  }
 }
 
 main {
   max-width: 1200px;
   margin: 0 auto;
   padding: 16px;
+  min-height: calc(100vh - 300px);
 }
 
 footer {
@@ -59,6 +63,7 @@ footer {
     img {
       width: 40px;
       margin: 0 12px;
+      border-radius: 50%;
     }
   }
 }
