@@ -35,3 +35,7 @@ img {
   display: flex;
   justify-content: center;
 }
+.buttons {
+margin: 0 auto;
+display: block;
+}
