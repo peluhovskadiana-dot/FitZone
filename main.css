@@ -22,7 +22,7 @@ img {
   width: 100%;
 }
 .img {
-  width: 33%;
+  width: 31%;
 }
 .image11.png {
   position: absolute;
@@ -30,4 +30,8 @@ img {
   height: 629px;
 
   background: url(img/image.png);
+}
+.simulators_row {
+  display: flex;
+  justify-content: center;
 }
