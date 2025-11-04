@@ -30,3 +30,7 @@ img {
 
   background: url(img/image.png);
 }
+.simulators_row {
+  display: flex;
+  justify-content: center;
+}
