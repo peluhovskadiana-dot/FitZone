@@ -33,3 +33,12 @@ body {
     position: relative;
 }
 .layer{z-index: 1;}
+.p{
+    color: aliceblue;
+}
+.home{
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(69, 10, 10);
+
+}

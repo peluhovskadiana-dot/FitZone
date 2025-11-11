@@ -1,5 +1,5 @@
 .about {
-  background-color: rgb(69, 10, 10);
+  background-color: rgb(48, 6, 6);
 }
 
 h1 {
@@ -79,5 +79,8 @@ p {
   justify-content: center;
 }
 .filters {
+  text-align: center;
+}
+.about{
   text-align: center;
 }
