@@ -39,3 +39,11 @@ img {
 margin: 0 auto;
 display: block;
 }
+.main1{
+  background: url(img/1.png);
+height: 100vh;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
